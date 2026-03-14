@@ -9,3 +9,124 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
+@keyframes heart-dance {
+  20% {
+    transform: scale(1);
+  }
+
+  60% {
+    transform: scale(1.25);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes sparks-dance {
+  0% {
+    fill: transparent;
+  }
+
+  60% {
+    fill: var(--red-color);
+  }
+
+  100% {
+    fill: transparent;
+  }
+}
+
+@keyframes animation-is-liked_contour {
+  0% {
+    fill: var(--accent-color);
+  }
+
+  40% {
+    fill: var(--red-color);
+  }
+
+  100% {
+    fill: var(--red-color);
+  }
+}
+
+@keyframes animation-is-liked_core {
+  0% {
+    fill: transparent;
+  }
+
+  20% {
+    fill: var(--red-color);
+  }
+
+  100% {
+    fill: var(--red-color);
+  }
+}
+
+@keyframes animation-is-liked_main-body {
+  0% {
+    fill: transparent;
+  }
+
+  40% {
+    fill: var(--red-color);
+  }
+
+  100% {
+    fill: var(--red-color);
+  }
+}
+
+@keyframes animation-hover_core {
+  0% {
+    fill: transparent;
+  }
+
+  40% {
+    fill: var(--accent-color);
+  }
+
+  100% {
+    fill: var(--accent-color);
+  }
+}
+
+@keyframes animation-hover_main-body {
+  0% {
+    fill: transparent;
+  }
+
+  80% {
+    fill: var(--accent-color);
+  }
+
+  100% {
+    fill: var(--accent-color);
+  }
+}
+
+@keyframes animation-active_core {
+  0% {
+    fill: var(--accent-color);
+  }
+
+  50% {
+    fill: var(--red-color);
+  }
+
+  100% {
+    fill: var(--red-color);
+  }
+}
+
+@keyframes animation-active_main-body {
+  0% {
+    fill: var(--accent-color);
+  }
+
+  100% {
+    fill: var(--red-color);
+  }
+}
