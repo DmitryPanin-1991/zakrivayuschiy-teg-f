@@ -1,6 +1,6 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --font-main: "Inter";
+  --font-main: "Inter-Variable";
   --font-accent: "PressStart2P";
   --font-main_weight-main: 410;
   --font-main_weight-title: 715;
@@ -23,9 +23,9 @@
       transparent 4px
     ),
     linear-gradient(to bottom, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
-  --width-section: clamp(375px, 100vw, 700px);
+  --width-section: clamp(362px, 100%, 700px);
   --heart-color_core: transparent;
   --heart-color_contour: #000;
   --heart-color_main-body: transparent;
-  --heart-color_sparks: transparent;
+  --heart-color_sparks: #f00;
 }
