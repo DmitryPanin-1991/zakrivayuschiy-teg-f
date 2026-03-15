@@ -23,7 +23,7 @@
       transparent 4px
     ),
     linear-gradient(to bottom, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
-  --width-section: clamp(362px, 100%, 700px);
+  --width-section: clamp(360px, 100%, 700px);
   --heart-color_core: transparent;
   --heart-color_contour: #000;
   --heart-color_main-body: transparent;
